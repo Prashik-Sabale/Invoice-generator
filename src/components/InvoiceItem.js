@@ -30,7 +30,7 @@ class InvoiceItem extends React.Component {
             {itemTable}
           </tbody>
         </Table>
-        <Button className="fw-bold " onClick={this.props.onRowAdd}>Add Item</Button>
+        <Button className=" fw-bold " onClick={this.props.onRowAdd}>Add Item</Button>
       </div>
     );
 
